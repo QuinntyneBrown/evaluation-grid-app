@@ -1,0 +1,22 @@
+.topicList-name,
+.topicList-actions {
+    position:relative;
+    float:left;
+}
+
+.topicList-name {
+    min-width:200px;
+}
+
+.topicList-item {
+    height:50px;
+}
+
+.topicList-actions span {
+    cursor:pointer;
+}
+
+.topicList-actions {
+    text-transform: uppercase;
+}
+   

@@ -1,0 +1,22 @@
+.roleList-name,
+.roleList-actions {
+    position:relative;
+    float:left;
+}
+
+.roleList-name {
+    min-width:200px;
+}
+
+.roleList-item {
+    height:50px;
+}
+
+.roleList-actions span {
+    cursor:pointer;
+}
+
+.roleList-actions {
+    text-transform: uppercase;
+}
+   

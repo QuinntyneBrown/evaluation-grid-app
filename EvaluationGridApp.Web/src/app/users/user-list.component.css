@@ -1,0 +1,22 @@
+.userList-name,
+.userList-actions {
+    position:relative;
+    float:left;
+}
+
+.userList-name {
+    min-width:200px;
+}
+
+.userList-item {
+    height:50px;
+}
+
+.userList-actions span {
+    cursor:pointer;
+}
+
+.userList-actions {
+    text-transform: uppercase;
+}
+   

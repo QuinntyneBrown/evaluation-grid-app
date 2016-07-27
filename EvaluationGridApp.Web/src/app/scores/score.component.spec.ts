@@ -1,0 +1,27 @@
+describe("score", () => {
+
+    var scoreComponent;
+    var $compile;
+    var $rootScope;
+
+    class MockActionCreator { }
+
+    beforeEach(() => {
+        angular.mock.module("app.score");
+    });
+
+    beforeEach(inject(($controller, _$compile_, _$rootScope_) => {
+        $rootScope = _$rootScope_;
+        $compile = _$compile_;
+        scoreComponent = $controller("scoreComponent", { scoreActionCreator: new MockActionCreator() });
+    }));
+
+    it("should compile", () => {
+        var element = $compile("<score></score>")($rootScope);
+        expect(element).toBeDefined();
+    });
+
+    it("should be defined", () => {
+        expect(scoreComponent).toBeDefined();
+    });
+})

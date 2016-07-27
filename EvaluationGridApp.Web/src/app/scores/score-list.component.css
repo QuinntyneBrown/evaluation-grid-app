@@ -1,0 +1,22 @@
+.scoreList-name,
+.scoreList-actions {
+    position:relative;
+    float:left;
+}
+
+.scoreList-name {
+    min-width:200px;
+}
+
+.scoreList-item {
+    height:50px;
+}
+
+.scoreList-actions span {
+    cursor:pointer;
+}
+
+.scoreList-actions {
+    text-transform: uppercase;
+}
+   

@@ -1,0 +1,22 @@
+.criteriaList-name,
+.criteriaList-actions {
+    position:relative;
+    float:left;
+}
+
+.criteriaList-name {
+    min-width:200px;
+}
+
+.criteriaList-item {
+    height:50px;
+}
+
+.criteriaList-actions span {
+    cursor:pointer;
+}
+
+.criteriaList-actions {
+    text-transform: uppercase;
+}
+   
